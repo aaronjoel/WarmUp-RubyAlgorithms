@@ -23,7 +23,7 @@ def vanilatest()
       item=gets.to_i
       pq.insert(item)
     elsif input==2 then
-      puts pq.getM*in()
+      puts pq.getMin()
     elsif input==3 then
       puts pq.peekMin()
     elsif input==4 then

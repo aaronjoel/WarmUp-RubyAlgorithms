@@ -6,7 +6,7 @@ class PriorityQueue
   def initialize()
     @store = [-1] #A dummy thingy on Heap!(If we stat off 
     #our indexes with 0 things get a little messsy! Sorry, didn`t
-    #got it. I`ll make some specs and will get deeper in it later
+    #get it. I`ll make some specs and will get deeper in it later
     #for now it looks fine with empty array at beginning
   end
 
@@ -91,7 +91,7 @@ class PriorityQueue
   end
 
   def showstore
-    @store.slice(1..-1).each {|i| puts "#{i}\n"}#because U use zero elem of array for "magic" -1
+    @store.slice(1..-1).each {|i| puts "#{i}\n"}#because we use zero elem of array for "magic" -1
     #I slice array from first to last element. And then I iterate resulting array \w array#each
     #http://www.ruby-doc.org/core/classes/Array.html#M000231
   end
